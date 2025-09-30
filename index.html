@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حامد امیری دوست - نمونه کارهای طراح گرافیک</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Removed Google Fonts; using local Peyda font via styles.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home" class="logo-link">حامد امیری دوست</a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">خانه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#work" class="nav-link">کارها</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">درباره</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">خدمات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">تماس</a>
+                        </li>
+                    </ul>
+                    <div class="nav-controls mobile-only">
+                        <button class="theme-toggle" id="theme-toggle-mobile" aria-label="تغییر حالت تیره">
+                            <i class="fas fa-moon theme-icon" id="theme-icon-mobile"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="تغییر حالت تیره">
+                        <i class="fas fa-moon theme-icon" id="theme-icon"></i>
+                    </button>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">طراحی هویت‌های بصری</span>
+                        <span class="title-line accent">ماندگار</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        برندسازی · رابط کاربری/تجربه کاربری · چاپ · موشن
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#work" class="btn btn-primary">مشاهده کارها</a>
+                        <a href="#contact" class="btn btn-secondary">تماس با من</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Showcase -->
+    <section class="portfolio" id="work">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">کارهای منتخب</h2>
+                <p class="section-subtitle">گزیده‌ای از پروژه‌های طراحی من</p>
+            </div>
+            
+            <!-- Portfolio Filters -->
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">همه</button>
+                <button class="filter-btn" data-filter="branding">برندسازی</button>
+                <button class="filter-btn" data-filter="web">وب/رابط کاربری</button>
+                <button class="filter-btn" data-filter="illustration">تصویرسازی</button>
+                <button class="filter-btn" data-filter="motion">موشن</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <h3 class="portfolio-title">هویت برند</h3>
+                                <p class="portfolio-category">برندسازی</p>
+                                <a href="#" class="portfolio-link">مشاهده مطالعه موردی</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <h3 class="portfolio-title">پلتفرم فروشگاهی</h3>
+                                <p class="portfolio-category">وب/رابط کاربری</p>
+                                <a href="#" class="portfolio-link">مشاهده مطالعه موردی</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="illustration">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <h3 class="portfolio-title">مجموعه هنر دیجیتال</h3>
+                                <p class="portfolio-category">تصویرسازی</p>
+                                <a href="#" class="portfolio-link">مشاهده مطالعه موردی</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="motion">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <h3 class="portfolio-title">لوگوی موشن</h3>
+                                <p class="portfolio-category">موشن</p>
+                                <a href="#" class="portfolio-link">مشاهده مطالعه موردی</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <h3 class="portfolio-title">برندسازی رستوران</h3>
+                                <p class="portfolio-category">برندسازی</p>
+                                <a href="#" class="portfolio-link">مشاهده مطالعه موردی</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <h3 class="portfolio-title">طراحی اپلیکیشن موبایل</h3>
+                                <p class="portfolio-category">وب/رابط کاربری</p>
+                                <a href="#" class="portfolio-link">مشاهده مطالعه موردی</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Project -->
+    <section class="featured-project">
+        <div class="container">
+            <div class="featured-content">
+                <div class="featured-text">
+                    <h2 class="featured-title">آخرین پروژه</h2>
+                    <h3 class="featured-subtitle">هویت برند استارتاپ فناوری</h3>
+                    <p class="featured-description">
+                        یک سیستم کامل هویت برند برای یک استارتاپ نوآورانه فناوری،
+                        شامل طراحی لوگو، پالت رنگ، تایپوگرافی و راهنمای دیجیتال.
+                    </p>
+                    <a href="#" class="btn btn-primary">مشاهده پروژه کامل</a>
+                </div>
+                <div class="featured-image">
+                    <div class="featured-visual">
+                        <div class="visual-placeholder">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                <h2 class="section-title">درباره من</h2>
+                    <p class="about-description">
+                    من یک طراح گرافیک پرانرژی با بیش از ۵ سال تجربه در خلق
+                    هویت‌های بصری ماندگار و تجربه‌های کاربری هستم. در طراحی برند،
+                    رابط کاربری/تجربه کاربری و تصویرسازی دیجیتال تخصص دارم و به کسب‌وکارها
+                    کمک می‌کنم داستان خود را با ارتباط بصری مؤثر روایت کنند.
+                    </p>
+                    
+                    <div class="skills-section">
+                        <h3 class="skills-title">مهارت‌ها و ابزارها</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-figma"></i>
+                                <span>Figma</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-adobe"></i>
+                                <span>Photoshop</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-adobe"></i>
+                                <span>Illustrator</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-film"></i>
+                                <span>After Effects</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>HTML/CSS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-sketch"></i>
+                                <span>Sketch</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-frame">
+                        <div class="profile-image">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">خدمات</h2>
+                <p class="section-subtitle">آنچه برای برند شما انجام می‌دهم</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3 class="service-title">طراحی لوگو</h3>
+                    <p class="service-description">خلق نشانه‌های ماندگار که با مخاطبان شما هم‌خوانی و ارتباط برقرار کند.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="service-title">وب و رابط کاربری/تجربه کاربری</h3>
+                    <p class="service-description">رابط‌های کارآمد، زیبا و واکنش‌گرا برای تجربه کاربری ممتاز.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="service-title">هویت برند</h3>
+                    <p class="service-description">سیستم‌های جامع برندسازی برای روایت داستان و ایجاد ارتباط ماندگار.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3 class="service-title">چاپ و موشن</h3>
+                    <p class="service-description">پوستر، بسته‌بندی و موشن‌دیزاین برای جان بخشیدن به برند شما.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                <h2 class="section-title">همکاری کنیم</h2>
+                    <p class="contact-description">
+                    آماده‌اید ایده‌تان را به واقعیت تبدیل کنیم؟ خوشحال می‌شوم درباره پروژه‌تان
+                    بشنوم و با هم کاری شگفت‌انگیز خلق کنیم.
+                    </p>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="نام شما" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="ایمیل شما" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="پیام شما" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">ارسال پیام</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home" class="logo-link">حامد امیری دوست</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">خانه</a>
+                    <a href="#work" class="footer-link">کارها</a>
+                    <a href="#about" class="footer-link">درباره</a>
+                    <a href="#services" class="footer-link">خدمات</a>
+                    <a href="#contact" class="footer-link">تماس</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2024 الکس ریورا. کلیه حقوق محفوظ است.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
