@@ -1,4 +1,4 @@
-# 🎨 Alex Rivera - Graphic Designer Portfolio
+# 🎨 hamed amiri doost - Graphic Designer Portfolio
 
 A sleek, professional, and artistic portfolio website for a graphic designer. This project showcases a modern design system with smooth animations, responsive layouts, and interactive elements.
 
@@ -150,10 +150,9 @@ Change fonts by updating the Google Fonts import:
 
 The portfolio website is ready to use and can be immediately deployed to any web hosting service. All files are optimized and production-ready.
 
-## 📝 License
 
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
 **Built with ❤️ for creative professionals who want to showcase their work beautifully.**
+
